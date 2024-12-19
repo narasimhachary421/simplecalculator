@@ -1,0 +1,22 @@
+div{
+    width:fit-content;
+    border: 1.5px solid rgb(101, 151, 19);
+    padding:30px;
+    border-radius: 1rem;
+}
+button{
+    background-color: rgb(204, 128, 65);
+    color: rgb(237, 238, 240);
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 1rem;
+    
+}
