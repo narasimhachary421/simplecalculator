@@ -1,22 +1,43 @@
-div{
-    width:fit-content;
-    border: 1.5px solid rgb(101, 151, 19);
-    padding:30px;
+.main{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.card{
+    height: 400px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+#left{
+    height:350px;
+    width:35%;
+    background-color: #00D3D4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#right{
+    height:350px;
+    width:65%;
+    background-color: #dbe0e0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#marks{
+    width: 250px;
+    height: 20px;
     border-radius: 1rem;
+    background-color: white;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(48, 47, 47);
 }
 button{
-    background-color: rgb(204, 128, 65);
-    color: rgb(237, 238, 240);
-    border: none;
-    width: 30px;
-    height: 30px;
-    font-size: larger;
-    font-weight: 600;
-    border-radius: 5px;
-}
-input{
-    width: 250px;
-    height: 30px;
-    border-radius: 1rem;
-    
+    width: 100px;
+    height: fit-content;
 }
